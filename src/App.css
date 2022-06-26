@@ -24,7 +24,7 @@ body{
   align-items: center;
   flex-wrap :wrap;
 }
-@keyframe screen and (max-width : 600px){
+@media screen and (max-width : 600px){
   .App p{
   width: 300px;
   
