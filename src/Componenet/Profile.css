@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+}
+.image{
+    width: 150px;
+    border-radius: 150px;
+}
+.container{
+    width: 280px;
+    background: linear-gradient(to left bottom,#1c51ba,#191938);
+    padding:10px;
+    border-radius: 5px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h2{
+    color:white;
+    margin:5px 0px;
+}
+.container h3{
+    color:turquoise;
+    margin: 7px 0px;
+}
+.SocialMediaIcon{
+    color:turquoise;
+    margin:20px 0px;
+}
+.icon{
+    margin:0px 5px;
+}
+
+/*hover effect*/
+.container:hover{
+    animation: flip 0.5s;
+    background: linear-gradient(to left bottom,#225dd4,#022669);
+}
+@keyframes flip {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+    
+}
